@@ -1,9 +1,10 @@
 import './App.css'
+import Player from './components/Player'
 
 const App = () => {
   return (
-    <div>
-     Hello World
+    <div className="player">
+     <Player />
     </div>
   )
 }
