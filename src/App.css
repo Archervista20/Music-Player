@@ -7,6 +7,22 @@
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
   display: grid;
   place-content: center;
+  background-image: linear-gradient(45deg, gray, silver, tomato, orange, steelblue, lime);
+  height: 100vh;
+  background-size: 300%;
+  animation: bg-animation 16s infinite alternate;
+}
+
+@keyframes bg-animation {
+
+0% {
+background-position: left;
+ }
+
+100% {
+background-position: right;
+ }
 }

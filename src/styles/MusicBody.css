@@ -1,0 +1,9 @@
+.music-wrapper {
+  width: 350px;
+  heigth: 450px;
+  background-color: pink;
+}
+
+.music-cover {
+  width: 100%;
+}
